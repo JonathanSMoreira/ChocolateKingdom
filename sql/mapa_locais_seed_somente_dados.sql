@@ -111,7 +111,7 @@ BEGIN
     'Adulto', 140,
     N'Diversão',
     0, NULL,
-     'https://images.unsplash.com/photo-1519750157634-b6b7a7e2f1b1?auto=format&fit=crop&w=800&q=80',
+     'https://images.unsplash.com/photo-1511381939415-c1c1c269d1fc?auto=format&fit=crop&w=1200&q=80',
      '/map-icons/icon-diversao.png');
 END;
 GO
@@ -199,7 +199,7 @@ BEGIN
     AND Codigo = 'montanha-russa-encantada';
 
   UPDATE dbo.MapaLocais
-  SET ImagemUrl = 'https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_%28blue_background%29.jpg'
+  SET ImagemUrl = 'https://images.unsplash.com/photo-1511381939415-c1c1c269d1fc?auto=format&fit=crop&w=1200&q=80'
   WHERE ParqueId = (SELECT TOP 1 Id FROM dbo.Parques WHERE Codigo = 'cacau-parque')
     AND Codigo = 'cacau-show';
 END;

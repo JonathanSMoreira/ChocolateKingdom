@@ -38,6 +38,12 @@ backend/.env
 # typescript
 *.tsbuildinfo
 
+# Snapshots locais / pastas de backup (duplicam código; não são o produto)
+backup-pre-cleanup-*/
+
+# SQL de rascunho / só para apagar manualmente
+sql/*APAGAR*
+
 # generated native folders
 /ios
 /android
