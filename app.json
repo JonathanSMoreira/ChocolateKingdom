@@ -1,27 +1,31 @@
 {
   "expo": {
     "scheme": "chocoapp",
-    "name": "choco-app",
+    "name": "Amusement CS",
     "slug": "choco-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-amusement-cs.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash-native-composite.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1a1411"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "usesCleartextTraffic": true,
       "softwareKeyboardLayoutMode": "pan",
+      "splash": {
+        "image": "./assets/splash-native-composite.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#1a1411"
+      },
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#1a1411",
+        "foregroundImage": "./assets/icon-amusement-cs.png"
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.anonymous.chocoapp"
@@ -30,9 +34,13 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "apiUrl": "http://192.168.15.7:3000",
+      "apiUrl": "http://192.168.15.3:3000",
+      "googleWebClientId": "",
       "googleAndroidClientId": "",
-      "googleWebClientId": ""
+      "googleIosClientId": "",
+      "eas": {
+        "projectId": "c682ff26-b004-447f-98e8-59c03200ebfa"
+      }
     },
     "plugins": [
       "expo-web-browser",
