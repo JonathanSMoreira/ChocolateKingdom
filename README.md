@@ -15,6 +15,12 @@ O APK/APK de preview **embute** o URL da API. Para mostrar o trabalho **fora de 
 
 Guia passo a passo: **[docs/PORTFOLIO_DEPLOY.md](docs/PORTFOLIO_DEPLOY.md)**.
 
+## Documentação para visitantes do repositório
+
+- **Fluxo do app em linguagem simples** (visitante vs funcionário, abas, mapa, perfil): **[docs/FLUXO_APP_LEIGOS.md](docs/FLUXO_APP_LEIGOS.md)**  
+- Prints de ecrã: coloque os PNG em **[docs/imagens-fluxo/](docs/imagens-fluxo/README.md)** (ou use `scripts/copiar-prints-fluxo.ps1`) para as imagens aparecerem no guia no GitHub.
+- Detalhe técnico e stack: **[docs/DOCUMENTACAO_PROJETO_CACAU_APP.md](docs/DOCUMENTACAO_PROJETO_CACAU_APP.md)**.
+
 ## Segurança no Git
 
 - Não commits: `.env`, `backend/.env`, chaves, passwords.

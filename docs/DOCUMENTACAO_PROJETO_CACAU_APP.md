@@ -1,5 +1,7 @@
 # Documentação do Projeto - Cacau App
 
+> **Quem chegar ao GitHub só para entender o produto:** comece pelo guia em linguagem simples com fluxo de ecrãs e prints: **[FLUXO_APP_LEIGOS.md](FLUXO_APP_LEIGOS.md)**.
+
 ## 1) Visão geral
 
 Aplicativo mobile em React Native (Expo) para experiência de parque temático Cacau Show, com:
