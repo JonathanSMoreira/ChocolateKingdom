@@ -135,7 +135,6 @@ Na aba **Mapa**:
 ## Documentação relacionada no repositório
 
 - [Documentação técnica e funcionalidades](DOCUMENTACAO_PROJETO_CACAU_APP.md)
-- [Deploy / portfolio / URL da API](PORTFOLIO_DEPLOY.md)
 - [Onde colocar os prints](imagens-fluxo/README.md)
 
 ---
