@@ -30,6 +30,9 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# Office lock files (aberto no Word/Excel)
+~$*
+
 # local env files
 .env
 .env*.local
