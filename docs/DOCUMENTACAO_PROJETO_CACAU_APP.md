@@ -1,10 +1,10 @@
-# Documentação do Projeto - Cacau App
+# Documentação do Projeto — Choco Kingdom
 
 > **Quem chegar ao GitHub só para entender o produto:** comece pelo guia em linguagem simples com fluxo de ecrãs e prints: **[FLUXO_APP_LEIGOS.md](FLUXO_APP_LEIGOS.md)**.
 
 ## 1) Visão geral
 
-Aplicativo mobile em React Native (Expo) para experiência de parque temático Cacau Show, com:
+Aplicativo mobile em React Native (Expo) para a experiência do parque temático **Choco Kingdom**, com:
 - autenticação por e-mail/senha e Google;
 - mapa interativo com hotspots e status em tempo real;
 - área de perfil com edição completa de dados pessoais, contato, senha, endereço e foto;
@@ -37,7 +37,7 @@ Aplicativo mobile em React Native (Expo) para experiência de parque temático C
 
 ## Banco de dados
 - SQL Server
-- Banco principal: `CacauParque`
+- Banco principal (nome lógico no ambiente atual): `CacauParque` — nome herdado da base; o produto exposto ao utilizador chama-se **Choco Kingdom**.
 
 ---
 
