@@ -3,7 +3,7 @@
     "scheme": "chocoapp",
     "name": "Amusement CS",
     "slug": "choco-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon-amusement-cs.png",
     "userInterfaceStyle": "light",
@@ -17,6 +17,10 @@
     },
     "android": {
       "usesCleartextTraffic": true,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
       "softwareKeyboardLayoutMode": "pan",
       "splash": {
         "image": "./assets/splash-native-composite.png",
@@ -34,7 +38,7 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "apiUrl": "http://192.168.15.3:3000",
+      "apiUrl": "http://192.168.15.10:3000",
       "googleWebClientId": "",
       "googleAndroidClientId": "",
       "googleIosClientId": "",
@@ -44,7 +48,15 @@
     },
     "plugins": [
       "expo-web-browser",
-      "expo-font"
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
     ]
   }
 }

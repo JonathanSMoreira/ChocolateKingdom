@@ -2999,11 +2999,13 @@ function AppInner({ googleAuth }: AppInnerProps) {
     } catch (e: unknown) {
       const aborted = e instanceof Error && e.name === 'AbortError';
       const base = apiBaseUrl();
+      const tech =
+        e instanceof Error ? e.message.trim() : typeof e === 'string' ? e.trim() : '';
       Alert.alert(
         aborted ? 'Tempo esgotado' : 'Conex\u00e3o',
         aborted
           ? `O servidor n\u00e3o respondeu em ${API_FETCH_TIMEOUT_MS / 1000}s.\n\n\u2022 Backend: npm start em choco-app/backend\n\u2022 URL atual: ${base}\n\u2022 Celular: mesmo Wi\u2011Fi do PC; no firewall do Windows, permita Node na porta 3000\n\u2022 Emulador Android: use http://10.0.2.2:3000 (retire apiUrl fixo do app.json em dev, se precisar).`
-          : `N\u00e3o foi poss\u00edvel contactar ${base}.\n\n\u2022 Mesmo Wi\u2011Fi que o PC e backend a correr (porta 3000)\n\u2022 Firewall do Windows: permitir Node na porta 3000\n\u2022 APK: a URL \u00e9 fixa no build. Refa\u00e7a o build com EXPO_PUBLIC_API_URL=http://IP_DO_PC:3000 (ver app.config.js), ou use um servidor na Internet (HTTPS).`
+          : `N\u00e3o foi poss\u00edvel contactar ${base}.${tech ? `\n\nDetalhe: ${tech}` : ''}\n\n\u2022 Mesmo Wi\u2011Fi que o PC e backend a correr (porta 3000)\n\u2022 Firewall do Windows: permitir Node na porta 3000\n\u2022 APK: a URL \u00e9 fixa no build. Refa\u00e7a o build com EXPO_PUBLIC_API_URL=http://IP_DO_PC:3000 (ver app.config.js), ou use um servidor na Internet (HTTPS).`
       );
     } finally {
       setAuthBusy(false);

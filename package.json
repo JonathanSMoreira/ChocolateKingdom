@@ -38,6 +38,7 @@
   "devDependencies": {
     "@types/react": "~19.2.2",
     "dotenv": "^17.4.0",
+    "expo-build-properties": "^0.14.8",
     "typescript": "~5.9.2"
   },
   "private": true
