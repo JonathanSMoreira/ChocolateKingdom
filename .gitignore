@@ -33,6 +33,9 @@ yarn-error.*
 # Office lock files (aberto no Word/Excel)
 ~$*
 
+# Cópia alternativa quando DOCFUNCIONALIDADES_*.docx está aberto no Word
+docs/*_novo.docx
+
 # local env files
 .env
 .env*.local

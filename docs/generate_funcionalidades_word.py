@@ -39,8 +39,8 @@ def build_pt() -> Document:
 
     add_p(
         doc,
-        "Este documento foi escrito para dois publicos: no inicio, linguagem acessivel para pessoas leigas; "
-        "no final, visao tecnica para engenharia, manutencao e evolucao do produto.",
+        "As partes 1 e 2 usam linguagem acessivel; a parte 3 descreve arquitetura e organizacao do codigo "
+        "(cliente, servidor, pastas principais e tecnologias).",
     )
 
     add_h(doc, "Parte 1 — Explicacao simples (leigos)", 1)
@@ -79,80 +79,32 @@ def build_pt() -> Document:
         "Fluxos de autenticacao, dados pessoais e recursos extras para perfis marcados como funcionarios.",
     )
 
-    add_h(doc, "Parte 3 — Arquitetura, engenharia e estado das areas", 1)
+    add_h(doc, "Parte 3 — Arquitetura e organizacao do codigo", 1)
     add_h(doc, "Arquitetura geral", 2)
     add_p(
         doc,
         "Modelo cliente-servidor: aplicativo React Native consome API REST em Node/Express, "
         "que persiste dados no SQL Server.",
     )
-    add_h(doc, "Estado atual por area", 2)
+    add_h(doc, "Organizacao por area", 2)
     add_p(
         doc,
-        "Backend: mais proximo de arranjo profissional, com routes/, services/, utils/, schema/, workers/ e db/connection.js. "
-        "Ainda existe concentracao relevante no server.js.",
+        "Backend: pastas routes/, services/, utils/, schema/, workers/ e ficheiro db/connection.js; "
+        "parte da logica continua concentrada em server.js.",
     )
     add_p(
         doc,
-        "App React Native: houve extracao parcial para src/ (config, types, services/http, utils, map/, screens/MapaTab.tsx), "
-        "mas App.tsx continua grande e concentra muitas responsabilidades.",
+        "App React Native: modulos em src/ incluem config, types, services/http, utils, map/ e screens/MapaTab.tsx; "
+        "App.tsx concentra grande parte do codigo da interface.",
     )
     add_p(
         doc,
-        "Confiabilidade/manutencao: melhorou com health check, timeout, troubleshooting SQL e separacao de .env. "
-        "Proximo passo natural: modularizar por ecras e hooks.",
+        "API: existem health check, timeout em chamadas, mensagens de diagnostico para ligacao SQL e uso de variaveis em .env.",
     )
     add_h(doc, "Tipos de linguagem usados no projeto", 2)
     add_p(doc, "TypeScript e JavaScript no app e backend.")
     add_p(doc, "SQL para schema, migracoes e seeds.")
     add_p(doc, "PowerShell/BAT para automacoes de ambiente SQL e suporte operacional.")
-
-    add_h(doc, "Parte 4 — Avaliacao honesta: esta nivel profissional?", 1)
-    add_p(
-        doc,
-        "Em partes sim, no todo ainda nao no sentido de app totalmente dividido por paginas. "
-        "E um projeto serio e viavel para portfolio e evolucao incremental.",
-    )
-
-    add_h(doc, "Visao directa (o que ainda pesa)", 2)
-    add_p(
-        doc,
-        "1) Frontend: App.tsx monolitico (milhares de linhas). Impacto: manutencao e revisoes mais dificeis. "
-        "Direcao: extrair screens, hooks e componentes compartilhados.",
-    )
-    add_p(
-        doc,
-        "2) Backend: server.js ainda grande. Impacto: crescimento no mesmo ficheiro. "
-        "Direcao: separar rotas por dominio (auth, clientes, funcionarios, etc.).",
-    )
-    add_p(
-        doc,
-        "3) Testes automatizados pouco visiveis. Impacto: refactors com maior risco. "
-        "Direcao: testes de API para endpoints criticos e smoke tests no cliente.",
-    )
-    add_p(
-        doc,
-        "4) Configuracao/ambientes: multiplos modos SQL e variaveis. Impacto: onboarding sujeito a erro. "
-        "Direcao: guia unico de setup com variaveis obrigatorias.",
-    )
-    add_p(
-        doc,
-        "5) SQL no repositorio: muitos scripts historicos. Impacto: risco de executar script errado. "
-        "Direcao: padronizar bootstrap e cabecalhos claros.",
-    )
-    add_p(
-        doc,
-        "6) Observabilidade: logs funcionais, mas pouco estruturados. Direcao: padrao de logs e erros centralizados.",
-    )
-    add_p(
-        doc,
-        "7) Seguranca operacional: manter .env fora do Git, revisar secrets e reforcar HTTPS em producao.",
-    )
-
-    add_h(doc, "Resumo final (PT-BR)", 2)
-    add_p(doc, "Arquitetura geral: backend mais organizado que o app.")
-    add_p(doc, "Manutencao: principal divida tecnica esta no App.tsx e no server.js.")
-    add_p(doc, "Profissionalismo: solido para portfolio e producao incremental, com espaco claro para modularizacao.")
 
     return doc
 
@@ -164,8 +116,8 @@ def build_en() -> Document:
 
     add_p(
         doc,
-        "This document is split for two audiences: plain-language explanation first, then a technical section "
-        "covering architecture, engineering state, and codebase maturity.",
+        "Parts 1 and 2 use plain language; Part 3 describes architecture and code organisation "
+        "(client, server, main folders, and technologies).",
     )
 
     add_h(doc, "Part 1 — Plain-language overview", 1)
@@ -195,74 +147,31 @@ def build_en() -> Document:
     add_h(doc, "Profile", 2)
     add_p(doc, "Authentication flows, personal data management, and extra capabilities for employee-tagged accounts.")
 
-    add_h(doc, "Part 3 — Architecture, engineering, and area status", 1)
+    add_h(doc, "Part 3 — Architecture and code organisation", 1)
     add_h(doc, "Overall architecture", 2)
     add_p(
         doc,
         "Client-server architecture: React Native app consumes a Node/Express REST API; data is stored in SQL Server.",
     )
-    add_h(doc, "Current state by area", 2)
+    add_h(doc, "Organisation by area", 2)
     add_p(
         doc,
-        "Backend: closer to a professional structure with routes/, services/, utils/, schema/, workers/, and db/connection.js; "
-        "however server.js is still larger than ideal.",
+        "Backend: directories routes/, services/, utils/, schema/, workers/, and file db/connection.js; "
+        "a significant amount of logic still lives in server.js.",
     )
     add_p(
         doc,
-        "React Native app: partial extraction to src/ happened (config, types, http services, utils, map, MapaTab), "
-        "but App.tsx still centralizes many responsibilities.",
+        "React Native app: modules under src/ include config, types, http services, utils, map/, and screens/MapaTab.tsx; "
+        "App.tsx holds most of the UI-related code.",
     )
     add_p(
         doc,
-        "Reliability/maintenance: improved with health checks, timeouts, SQL troubleshooting guidance, and .env separation. "
-        "Next natural step is screen-based and hook-based modularization.",
+        "API: health check endpoint, request timeouts, SQL connection troubleshooting messages, and configuration via .env variables.",
     )
     add_h(doc, "Language types used in the project", 2)
     add_p(doc, "TypeScript and JavaScript across mobile and backend layers.")
     add_p(doc, "SQL for schema, migrations, and seed data.")
     add_p(doc, "PowerShell/BAT scripts for SQL environment setup and operations.")
-
-    add_h(doc, "Part 4 — Honest assessment: professional level?", 1)
-    add_p(
-        doc,
-        "Partly yes; as a whole, not yet at the level of a fully screen-modular app. "
-        "It is still a serious, viable project for portfolio use and incremental production hardening.",
-    )
-
-    add_h(doc, "Straight talk (what still weighs on the codebase)", 2)
-    add_p(
-        doc,
-        "1) Frontend: monolithic App.tsx. Impact: harder reviews and refactors. Direction: split into screens/hooks/shared components.",
-    )
-    add_p(
-        doc,
-        "2) Backend: large server.js. Impact: continued growth in one file. Direction: domain-based route modules.",
-    )
-    add_p(
-        doc,
-        "3) Limited visible automated tests. Impact: higher regression risk. Direction: API tests for critical endpoints + smoke tests.",
-    )
-    add_p(
-        doc,
-        "4) Environment complexity. Impact: onboarding mistakes. Direction: one setup guide with required variables.",
-    )
-    add_p(
-        doc,
-        "5) Many SQL scripts over time. Impact: wrong-script execution risk. Direction: standardized bootstrap flow and script headers.",
-    )
-    add_p(
-        doc,
-        "6) Observability: useful logs but not strongly structured. Direction: standardized logging and centralized error handling.",
-    )
-    add_p(
-        doc,
-        "7) Operational security: keep .env out of Git, review secrets regularly, enforce HTTPS for production.",
-    )
-
-    add_h(doc, "Final summary (EN)", 2)
-    add_p(doc, "Architecture: backend is currently more modular than the app layer.")
-    add_p(doc, "Maintenance: primary debt remains App.tsx and server.js size.")
-    add_p(doc, "Professionalism: solid base for portfolio and incremental production evolution.")
 
     return doc
 
