@@ -1,6 +1,6 @@
 # Prints do fluxo (GitHub)
 
-Para as capturas aparecerem na documentação **[FLUXO_APP_LEIGOS.md](../FLUXO_APP_LEIGOS.md)** no GitHub, coloque nesta pasta **7 ficheiros PNG** com estes nomes exactos:
+Para as capturas aparecerem na documentação **[FLUXO_APP_SIMPLES.md](../FLUXO_APP_SIMPLES.md)** no GitHub, coloque nesta pasta **7 ficheiros PNG** com estes nomes exactos:
 
 | Ficheiro | Conteúdo sugerido |
 |----------|-------------------|

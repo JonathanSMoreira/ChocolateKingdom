@@ -1,6 +1,6 @@
 # Documentação do Projeto — Choco Kingdom
 
-> **Quem chegar ao GitHub só para entender o produto:** comece pelo guia em linguagem simples com fluxo de ecrãs e prints: **[FLUXO_APP_LEIGOS.md](FLUXO_APP_LEIGOS.md)**.
+> **Quem chegar ao GitHub só para entender o produto:** comece pelo guia em linguagem simples com fluxo de ecrãs e prints: **[FLUXO_APP_SIMPLES.md](FLUXO_APP_SIMPLES.md)**.
 
 ## 1) Visão geral
 

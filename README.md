@@ -2,5 +2,5 @@
 
 Repositório do projeto (aplicação móvel e API).
 
-- [Fluxo do app — guia em linguagem simples](docs/FLUXO_APP_LEIGOS.md)
+- [Fluxo do app — guia em linguagem simples](docs/FLUXO_APP_SIMPLES.md)
 - [Documentação técnica](docs/DOCUMENTACAO_PROJETO_CACAU_APP.md)
