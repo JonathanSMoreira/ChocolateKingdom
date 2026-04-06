@@ -1,4 +1,4 @@
-# Amusement CS — app (Expo) + API (Node)
+# Choco Kingdom — app (Expo) + API (Node)
 
 Monorepo com **React Native / Expo** (`App.tsx`, EAS) e **backend Express** em `backend/`, ligado a **SQL Server**.
 

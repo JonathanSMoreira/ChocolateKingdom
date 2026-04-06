@@ -753,8 +753,8 @@ const MAP_LOCAIS_DEMO: MapLocal[] = [
     codigo: 'cacau-show',
     nome: 'Cacau Show',
     tipo: 'atracao',
-    categoria: 'Divers\u00e3o',
-    descricao: 'Show e experi\u00eancias.',
+    categoria: 'Diversão',
+    descricao: 'Show e experiências.',
     classificacao: 'Adulto',
     alturaMinCm: 140,
     aberto: false,
@@ -4339,14 +4339,21 @@ function AppInner({ googleAuth }: AppInnerProps) {
                     </View>
                   </View>
                   <Text style={styles.subtitle}>
-                    {'Bem-vindo ao mundo onde o chocolate e a divers\u00e3o se conectam.'}
+                    {'Bem-vindo ao mundo onde o chocolate e a diversão se conectam.'}
                   </Text>
                 </>
               ) : (
                 <>
-                  <Text style={styles.brandTitle}>Cacau Show</Text>
+                  <Text
+                    style={styles.brandTitle}
+                    numberOfLines={2}
+                    adjustsFontSizeToFit
+                    minimumFontScale={0.72}
+                  >
+                    Choco Kingdom
+                  </Text>
                   <Text style={styles.subtitle}>
-                    {'Bem-vindo ao mundo onde o chocolate e a divers\u00e3o se conectam.'}
+                    {'Bem-vindo ao mundo onde o chocolate e a diversão se conectam.'}
                   </Text>
                 </>
               )}
@@ -7111,10 +7118,14 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   brandTitle: {
-    fontSize: 52,
+    fontSize: 45,
     color: '#3d1f12',
     fontWeight: '700',
     marginBottom: 5,
+    textAlign: 'center',
+    paddingHorizontal: 16,
+    width: '100%',
+    maxWidth: '100%',
   },
   subtitle: {
     fontSize: 24,
