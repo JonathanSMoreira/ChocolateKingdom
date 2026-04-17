@@ -26,15 +26,15 @@
 
 ## People Analytics — Power BI (trechos em alta resolução)
 
-<p align="center"><img src="docs/readme/power-bi-viz-crescimento-clientes-genero.png" alt="Power BI — crescimento de clientes por género" width="960" /></p>
+<p align="center"><img src="docs/readme/power-bi-viz-crescimento-clientes-genero.png" alt="Power BI — crescimento de clientes por género" width="680" /></p>
 
-<p align="center"><img src="docs/readme/power-bi-viz-taxa-presenca-setores.png" alt="Power BI — taxa de presença por setor" width="960" /></p>
+<p align="center"><img src="docs/readme/power-bi-viz-taxa-presenca-setores.png" alt="Power BI — taxa de presença por setor" width="680" /></p>
 
 *Vistas completas dos dois painéis, texto longo e SQL:* **[docs/POWER_BI_PEOPLE_ANALYTICS.md](docs/POWER_BI_PEOPLE_ANALYTICS.md)**.
 
 | Visão estratégica (painel completo) | Visão operacional (painel completo) |
 | :---: | :---: |
-| <img src="docs/readme/power-bi-strategic-global-vision.png" alt="Painel Power BI — visão estratégica" width="900" /> | <img src="docs/readme/power-bi-operational-workforce-by-sector.png" alt="Painel Power BI — visão operacional" width="900" /> |
+| <img src="docs/readme/power-bi-strategic-global-vision.png" alt="Painel Power BI — visão estratégica" width="640" /> | <img src="docs/readme/power-bi-operational-workforce-by-sector.png" alt="Painel Power BI — visão operacional" width="640" /> |
 
 ---
 
