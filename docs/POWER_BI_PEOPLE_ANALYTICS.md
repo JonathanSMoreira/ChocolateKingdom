@@ -1,6 +1,6 @@
 # People Analytics — Power BI | Choco Kingdom
 
-> **Portfolio:** dados de RH / pessoas fictícios (cenário corporativo de exemplo). Secções em **EN** e **PT**.
+> **Portfolio:** cenário corporativo de exemplo com dados fictícios (RH / pessoas). Secções em **EN** e **PT**.
 
 ---
 
