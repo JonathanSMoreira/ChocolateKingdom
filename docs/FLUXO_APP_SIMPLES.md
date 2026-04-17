@@ -2,7 +2,7 @@
 
 Este guia explica **para que serve** o aplicativo, **o que pode fazer** em cada área e **por onde começar** quando abre o telemóvel. É um complemento à [documentação técnica do projeto](DOCUMENTACAO_PROJETO_CACAU_APP.md).
 
-> **Imagens:** Os exemplos abaixo referem ficheiros em [`docs/imagens-fluxo/`](imagens-fluxo/README.md). Depois de colocar os prints com os nomes certos, eles aparecem automaticamente aqui e no GitHub.
+As figuras usam PNG em `docs/imagens-fluxo/` com os nomes indicados no [apêndice no fim desta página](#apendice-imagens-fluxo).
 
 ---
 
@@ -10,7 +10,7 @@ Este guia explica **para que serve** o aplicativo, **o que pode fazer** em cada 
 
 O **Choco Kingdom** é um app de telemóvel pensado para a experiência de um **parque temático**: explorar conteúdos na **Home**, ver o **mapa** com atrações e serviços, gerir o **perfil** (conta, dados, senha) e, para quem trabalha no parque, aceder a **ferramentas de funcionário** (equipa, presença, cargos, comunicação interna).
 
-Na base, o app fala com um **servidor** (API) que guarda dados numa base **SQL Server** — utilizador normal não precisa de saber isso; basta ter o app instalado e rede (por exemplo Wi‑Fi na mesma rede que o servidor, em modo desenvolvimento).
+O app comunica com uma **API** e dados em **SQL Server** (detalhes na documentação técnica). Para quem só usa o produto: em geral basta **internet**; em **desenvolvimento**, o telemóvel e o PC onde corre a API costumam estar na **mesma rede Wi‑Fi**.
 
 ---
 
@@ -97,6 +97,22 @@ Visão da **equipa do setor**, filtros (todos / em serviço / fora de serviço),
 
 *(Os ecrãs exactos dependem do seu papel no parque e do que o administrador ativou na base de dados.)*
 
+### Calendário de presença (ícone na linha da pessoa)
+
+Na lista **Equipe e presença**, o ícone de **calendário** abre o **mês** daquela pessoa: cada dia mostra o estado (presente, falta, folga, atestado, etc., conforme o servidor).
+
+- **Mês:** podes mudar o mês à cabeça do calendário para rever histórico.
+- **Toque num dia:** em contas com permissão de gestão de ponto, serve para o **ciclo rápido** de marcação (quem não tem essa permissão no calendário de outrem não usa este atalho da mesma forma).
+- **Toque longo num dia:** abre o **detalhe do dia** — falta, atestado (com possível imagem do documento), folga, justificativa e horários de ponto quando existirem.
+- **Gestos no calendário (swipe):** para perfis de **gestão** há atalhos (por exemplo **folga** / **justificativa** com gestos no próprio calendário); no **próprio** calendário o colaborador base vê e edita sobretudo por **toque longo** → detalhe, sem os mesmos atalhos rápidos de quem coordena.
+- **Folga no próprio dia:** só quem tem cargo compatível (ex.: gerente/coordenador ou regra equivalente no app) marca folga direta; outros perfis podem precisar de fluxo com justificativa.
+
+Vídeo (gravado no app **Amusement CS** / Choco Kingdom) a mostrar o fluxo no ecrã:
+
+<video src="imagens-fluxo/calendario-presenca-screen-recording.mp4" controls width="100%" style="max-width: 720px"></video>
+
+*Se o vídeo não aparecer no browser (por exemplo ficheiro grande ou rede lenta), abre o MP4 em `docs/imagens-fluxo/calendario-presenca-screen-recording.mp4` no repositório em modo **Raw** ou faz clone local.*
+
 ---
 
 ## Mapa do parque
@@ -135,8 +151,30 @@ Na aba **Mapa**:
 ## Documentação relacionada no repositório
 
 - [Documentação técnica e funcionalidades](DOCUMENTACAO_PROJETO_CACAU_APP.md)
-- [Onde colocar os prints](imagens-fluxo/README.md)
 
 ---
 
-*Última atualização do texto: fluxo alinhado às capturas de ecrã fornecidas pelo autor do projeto.*
+<a id="apendice-imagens-fluxo"></a>
+
+## Apêndice: capturas (pasta docs/imagens-fluxo)
+
+O guia referencia estes ficheiros (para o Markdown do GitHub os mostrar, têm de existir no repositório com estes nomes):
+
+| Ficheiro | Conteúdo sugerido |
+|----------|-------------------|
+| `01-login-perfil-visitante.png` | Ecrã de login (aba Perfil, visitante) |
+| `02-configuracoes-funcionario.png` | Configurações do funcionário |
+| `03-cadastro-cargos.png` | Cadastro de cargos |
+| `04-mapa-legenda.png` | Mapa — legenda / lista de locais |
+| `05-equipe-presenca.png` | Equipe e presença |
+| `06-mapa-parque.png` | Mapa do parque (vista principal) |
+| `07-perfil-visitante-logado.png` | Perfil do visitante após login |
+| `calendario-presenca-screen-recording.mp4` | Vídeo — calendário de presença (opcional; ~10 MB) |
+
+Para copiar vários prints de uma pasta (ex.: exportados do telemóvel) e renomear nesta ordem:
+
+```powershell
+.\scripts\copiar-prints-fluxo.ps1 -Source "$env:USERPROFILE\Downloads\prints-choco"
+```
+
+(Ajusta `-Source` para a tua pasta; depois confere se a ordem dos ficheiros bate com a tabela e corrige nomes à mão se preciso.)

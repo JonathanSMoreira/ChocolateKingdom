@@ -43,4 +43,4 @@ for ($i = 0; $i -lt $n; $i++) {
 }
 
 Write-Host "`nDestino: $dest"
-Write-Host "Verifique em docs/imagens-fluxo/README.md se a ordem corresponde ao que pretende; ajuste nomes manualmente se necessário."
+Write-Host "Confira a ordem na tabela do apêndice em docs/FLUXO_APP_SIMPLES.md; ajuste nomes manualmente se necessário."

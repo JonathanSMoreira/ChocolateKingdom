@@ -1,6 +1,6 @@
 # Documentação do Projeto — Choco Kingdom
 
-> **Quem chegar ao GitHub só para entender o produto:** comece pelo guia em linguagem simples com fluxo de ecrãs e prints: **[FLUXO_APP_SIMPLES.md](FLUXO_APP_SIMPLES.md)**.
+> **Produto (fluxo + vídeo do calendário):** [FLUXO_APP_SIMPLES.md](FLUXO_APP_SIMPLES.md) · **Power BI:** [POWER_BI_PEOPLE_ANALYTICS.md](POWER_BI_PEOPLE_ANALYTICS.md) · **Raiz do repo:** [README.md](../README.md).
 
 ## 1) Visão geral
 
@@ -83,7 +83,7 @@ Aplicativo mobile em React Native (Expo) para a experiência do parque temático
   - Senha;
   - Endereço;
   - Excluir conta (confirmação + mensagem final);
-- preview ampliado da foto;
+- toque na foto para ver em ecrã inteiro (lightbox);
 - atualização da foto com persistência no banco;
 - popup de boas-vindas com apelido;
 - pull-to-refresh.
@@ -263,26 +263,21 @@ Base padrão: `http://<ip-ou-host>:3000`
 
 ---
 
-## 9) Como subir o projeto (resumo)
+## 9) Status atual de entrega
 
-## Backend
-1. Acesse `choco-app/backend`
-2. Instale dependências: `npm install`
-3. Inicie: `npm start`
+**Como subir (resumo)**
 
-## App mobile
-1. Acesse `choco-app`
-2. Instale dependências: `npm install`
-3. Configure `expo.extra.apiUrl` em `app.json` com IP da máquina
-4. Inicie Expo: `npx expo start -c`
+Backend (`choco-app/backend`): `npm install` → `npm start`.
 
----
+App mobile (`choco-app`): `npm install` → definir `expo.extra.apiUrl` em `app.json` com o IP do PC onde corre a API → `npx expo start -c`.
 
-## 10) Status atual de entrega
+**O que já está entregue**
 
-Projeto está estruturado com frontend mobile + backend + banco SQL Server, incluindo:
-- autenticação (senha e Google),
-- mapa interativo com legenda/status/fila/imagens,
-- perfil completo com persistência de dados e foto,
-- scripts SQL de criação/migração para ambientes novos e legados.
+- Frontend mobile + backend + SQL Server ligados.
+- Autenticação (senha e Google).
+- Mapa interativo com legenda, status, fila e imagens.
+- Perfil com persistência de dados e foto.
+- Área de funcionário (equipa, presença, calendário de ponto com regras por cargo — ver [FLUXO_APP_SIMPLES.md](FLUXO_APP_SIMPLES.md)).
+- Scripts SQL de criação/migração para ambientes novos e legados.
+- Camada **People Analytics** em Power BI (resumo em [POWER_BI_PEOPLE_ANALYTICS.md](POWER_BI_PEOPLE_ANALYTICS.md); imagens na raiz do `README.md`).
 
