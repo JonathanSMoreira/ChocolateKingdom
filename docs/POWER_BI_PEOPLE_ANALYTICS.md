@@ -51,7 +51,7 @@ The sections below alternate **Portuguese** and **English** for the same topics.
 
 **English** — This metric measures **real attendance**. It compares days with **actual clock-in/out** (presence) against **expected working days**. **Scheduled days off** and **justified non-work** are **excluded** from the denominator so the measure reflects days when the person **should** have been at work.
 
-<p align="center"><img src="readme/power-bi-viz-taxa-presenca-setores.png" alt="Taxa de presença por setor — Março e Abril" width="680" /></p>
+<p align="center"><img src="readme/power-bi-viz-taxa-presenca-setores.png" alt="Taxa de presença por setor — Março e Abril" width="580" /></p>
 
 ### Por que Tecnologia e Administrativo ficam quase em 100%? | Why are Tech and Admin near 100%?
 
