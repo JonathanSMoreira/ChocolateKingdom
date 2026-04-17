@@ -26,7 +26,7 @@
 
 ## People Analytics — Power BI (trechos em alta resolução)
 
-<p align="center"><img src="docs/readme/power-bi-viz-crescimento-clientes-genero.png" alt="Power BI — crescimento de clientes por género" width="680" /></p>
+<p align="center"><img src="docs/readme/power-bi-viz-crescimento-clientes-genero.png" alt="Power BI — crescimento de clientes por género" width="580" /></p>
 
 <p align="center"><img src="docs/readme/power-bi-viz-taxa-presenca-setores.png" alt="Power BI — taxa de presença por setor" width="680" /></p>
 
