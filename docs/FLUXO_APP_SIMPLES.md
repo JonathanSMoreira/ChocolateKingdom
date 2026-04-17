@@ -109,17 +109,19 @@ Na lista **Equipe e presença**, o ícone de **calendário** na linha de cada pe
 
 **Vídeo do fluxo** no telemóvel (app Choco Kingdom): gravação de ecrã. Clica em **play** no leitor em baixo. A imagem parada é só o **poster** (frame `08-calendario-presenca-thumb.png`).
 
+*(Caminhos **relativos** ao ficheiro — funcionam na vista renderizada do GitHub no mesmo repositório. URLs `raw.githubusercontent.com/...` **não** funcionam em repos **privados** ou sem sessão iniciada — por isso dão **404**.)*
+
 <video
   controls
   playsinline
   preload="metadata"
   width="380"
   style="max-width:100%;height:auto;display:block;margin:0 auto;"
-  poster="https://raw.githubusercontent.com/JonathanSMoreira/ChocolateKingdom/master/docs/imagens-fluxo/08-calendario-presenca-thumb.png"
-  src="https://raw.githubusercontent.com/JonathanSMoreira/ChocolateKingdom/master/docs/imagens-fluxo/calendario-presenca-screen-recording.mp4"
+  poster="imagens-fluxo/08-calendario-presenca-thumb.png"
+  src="imagens-fluxo/calendario-presenca-screen-recording.mp4"
 ></video>
 
-**Alternativa (se o leitor não aparecer ou não reproduzir):** [abrir o MP4 directamente (Raw / transferir)](https://raw.githubusercontent.com/JonathanSMoreira/ChocolateKingdom/master/docs/imagens-fluxo/calendario-presenca-screen-recording.mp4) — o browser ou telemóvel abre o vídeo ou faz download.
+**Se não der play:** abre o MP4 a partir do repositório (com sessão iniciada no GitHub): [docs/imagens-fluxo/calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4) → na página do ficheiro usa **Download** ou **View raw**. Em **clone local**, abre a pasta `docs/imagens-fluxo/` e reproduz o `.mp4` no explorador de ficheiros.
 
 ---
 
