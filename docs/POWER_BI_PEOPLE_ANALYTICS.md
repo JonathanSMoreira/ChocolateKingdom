@@ -29,9 +29,9 @@ A **detailed narrative** (charts, definitions, sector behaviour, limitations, ne
 
 ## Painéis completos (referência)
 
-<p align="center"><img src="readme/power-bi-strategic-global-vision.png" alt="Painel estratégico — visão global de pessoas" width="960" /></p>
+<p align="center"><img src="readme/power-bi-strategic-global-vision.png" alt="Painel estratégico — visão global de pessoas" width="1100" /></p>
 
-<p align="center"><img src="readme/power-bi-operational-workforce-by-sector.png" alt="Painel operacional — força de trabalho por setor" width="960" /></p>
+<p align="center"><img src="readme/power-bi-operational-workforce-by-sector.png" alt="Painel operacional — força de trabalho por setor" width="1100" /></p>
 
 ---
 

@@ -34,7 +34,7 @@
 
 | Visão estratégica (painel completo) | Visão operacional (painel completo) |
 | :---: | :---: |
-| ![Power BI — painel estratégico](docs/readme/power-bi-strategic-global-vision.png) | ![Power BI — painel operacional](docs/readme/power-bi-operational-workforce-by-sector.png) |
+| <img src="docs/readme/power-bi-strategic-global-vision.png" alt="Painel Power BI — visão estratégica" width="900" /> | <img src="docs/readme/power-bi-operational-workforce-by-sector.png" alt="Painel Power BI — visão operacional" width="900" /> |
 
 ---
 
