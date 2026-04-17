@@ -97,21 +97,23 @@ Visão da **equipa do setor**, filtros (todos / em serviço / fora de serviço),
 
 *(Os ecrãs exactos dependem do seu papel no parque e do que o administrador ativou na base de dados.)*
 
-### Calendário de presença (ícone na linha da pessoa)
+### Exemplo: Calendário de presença
 
-Na lista **Equipe e presença**, o ícone de **calendário** abre o **mês** daquela pessoa: cada dia mostra o estado (presente, falta, folga, atestado, etc., conforme o servidor).
+Na lista **Equipe e presença**, o ícone de **calendário** na linha de cada pessoa abre a vista **mensal** daquela pessoa. Cada dia mostra o estado vindo do servidor (presente, falta, folga, atestado, etc.).
 
-- **Mês:** podes mudar o mês à cabeça do calendário para rever histórico.
-- **Toque num dia:** em contas com permissão de gestão de ponto, serve para o **ciclo rápido** de marcação (quem não tem essa permissão no calendário de outrem não usa este atalho da mesma forma).
-- **Toque longo num dia:** abre o **detalhe do dia** — falta, atestado (com possível imagem do documento), folga, justificativa e horários de ponto quando existirem.
-- **Gestos no calendário (swipe):** para perfis de **gestão** há atalhos (por exemplo **folga** / **justificativa** com gestos no próprio calendário); no **próprio** calendário o colaborador base vê e edita sobretudo por **toque longo** → detalhe, sem os mesmos atalhos rápidos de quem coordena.
-- **Folga no próprio dia:** só quem tem cargo compatível (ex.: gerente/coordenador ou regra equivalente no app) marca folga direta; outros perfis podem precisar de fluxo com justificativa.
+- **Mês:** no topo do calendário escolhes outro mês para rever histórico.
+- **Toque num dia:** com permissão de **gestão de ponto**, serve para o fluxo **rápido** de marcação (quem não tem essa permissão sobre aquele colaborador não usa o mesmo atalho).
+- **Toque longo num dia:** abre o **detalhe do dia** — falta, atestado (com imagem do documento, se existir), folga, justificativa e horários de ponto (entrada, almoço, saída) quando existirem.
+- **Gestos (swipe) no calendário:** em contas de **gestão** há atalhos (por exemplo folga / justificativa); no **próprio** calendário o colaborador trata sobretudo de tudo por **toque longo** → detalhe, sem os mesmos gestos rápidos de quem coordena.
+- **Folga no próprio dia:** só quem tem **cargo compatível** (ex.: gerente / coordenador ou regra equivalente no app) marca folga diretamente; outros perfis seguem fluxo com justificativa.
 
-Vídeo (gravado no app **Amusement CS** / Choco Kingdom) a mostrar o fluxo no ecrã:
+Imagem de referência (quadro do calendário):
 
-<video src="imagens-fluxo/calendario-presenca-screen-recording.mp4" controls width="100%" style="max-width: 720px"></video>
+![Calendário de presença](imagens-fluxo/08-calendario-presenca-thumb.png)
 
-*Se o vídeo não aparecer no browser (por exemplo ficheiro grande ou rede lenta), abre o MP4 em `docs/imagens-fluxo/calendario-presenca-screen-recording.mp4` no repositório em modo **Raw** ou faz clone local.*
+Vídeo do fluxo no telemóvel (app Choco Kingdom):
+
+<video src="imagens-fluxo/calendario-presenca-screen-recording.mp4" controls width="100%" style="max-width: 420px"></video>
 
 ---
 
@@ -169,7 +171,8 @@ O guia referencia estes ficheiros (para o Markdown do GitHub os mostrar, têm de
 | `05-equipe-presenca.png` | Equipe e presença |
 | `06-mapa-parque.png` | Mapa do parque (vista principal) |
 | `07-perfil-visitante-logado.png` | Perfil do visitante após login |
-| `calendario-presenca-screen-recording.mp4` | Vídeo — calendário de presença (opcional; ~10 MB) |
+| `08-calendario-presenca-thumb.png` | Calendário de presença — imagem de referência (frame do vídeo) |
+| `calendario-presenca-screen-recording.mp4` | Vídeo — calendário de presença (versão leve para o GitHub) |
 
 Para copiar vários prints de uma pasta (ex.: exportados do telemóvel) e renomear nesta ordem:
 
