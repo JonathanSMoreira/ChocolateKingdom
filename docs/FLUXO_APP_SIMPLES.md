@@ -97,7 +97,9 @@ Visão da **equipa do setor**, filtros (todos / em serviço / fora de serviço),
 
 *(Os ecrãs exactos dependem do seu papel no parque e do que o administrador ativou na base de dados.)*
 
-### Exemplo: Calendário de presença
+### Exemplo: Calendário de presença | Attendance calendar
+
+**Português**
 
 Na lista **Equipe e presença**, o ícone de **calendário** na linha de cada pessoa abre a vista **mensal** daquela pessoa. Cada dia mostra o estado vindo do servidor (presente, falta, folga, atestado, etc.).
 
@@ -107,21 +109,27 @@ Na lista **Equipe e presença**, o ícone de **calendário** na linha de cada pe
 - **Gestos (swipe) no calendário:** em contas de **gestão** há atalhos (por exemplo folga / justificativa); no **próprio** calendário o colaborador trata sobretudo de tudo por **toque longo** → detalhe, sem os mesmos gestos rápidos de quem coordena.
 - **Folga no próprio dia:** só quem tem **cargo compatível** (ex.: gerente / coordenador ou regra equivalente no app) marca folga diretamente; outros perfis seguem fluxo com justificativa.
 
-**Vídeo do fluxo** no telemóvel (app Choco Kingdom): gravação de ecrã. Clica em **play** no leitor em baixo. A imagem parada é só o **poster** (frame `08-calendario-presenca-thumb.png`).
+**English**
 
-*(Caminhos **relativos** ao ficheiro — funcionam na vista renderizada do GitHub no mesmo repositório. URLs `raw.githubusercontent.com/...` **não** funcionam em repos **privados** ou sem sessão iniciada — por isso dão **404**.)*
+In **Team & attendance**, the **calendar** icon on each row opens that person’s **month** view. Each day reflects server state (present, absence, day off, medical certificate, etc.).
 
-<video
-  controls
-  playsinline
-  preload="metadata"
-  width="380"
-  style="max-width:100%;height:auto;display:block;margin:0 auto;"
-  poster="imagens-fluxo/08-calendario-presenca-thumb.png"
-  src="imagens-fluxo/calendario-presenca-screen-recording.mp4"
-></video>
+- **Month:** use the control at the top to pick another month.
+- **Tap a day:** with **time-management** permission, starts the **quick** marking flow (others don’t get the same shortcut for that colleague).
+- **Long-press a day:** opens **day details** — absence, certificate (with document image if any), day off, justification, and clock times when applicable.
+- **Swipes on the calendar:** **management** accounts get shortcuts (e.g. day off / justification); on **your own** calendar you mostly use **long-press** → details, without the coordinator shortcuts.
+- **Day off on your own day:** only **eligible roles** (e.g. manager/coordinator or equivalent) mark day off directly; others follow a justification flow.
 
-**Se não der play:** abre o MP4 a partir do repositório (com sessão iniciada no GitHub): [docs/imagens-fluxo/calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4) → na página do ficheiro usa **Download** ou **View raw**. Em **clone local**, abre a pasta `docs/imagens-fluxo/` e reproduz o `.mp4` no explorador de ficheiros.
+**Vídeo do fluxo | Flow video**
+
+**Português** — Gravação de ecrã no telemóvel (app Choco Kingdom). Ficheiro: [calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4).
+
+**English** — On-phone **screen recording** (Choco Kingdom app). File: [calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4).
+
+<p align="center"><img src="imagens-fluxo/08-calendario-presenca-thumb.png" alt="Attendance calendar — reference frame" width="320" /></p>
+
+*Frame de referência do mesmo ecrã | Reference still from the same screen.*
+
+**Se não abrir no browser | If the file won’t open in the browser:** com sessão no GitHub, abre o link do MP4 e usa **Download** ou **View raw**. Com **clone local**, reproduz `docs/imagens-fluxo/calendario-presenca-screen-recording.mp4` no explorador. / With a **local clone**, play the file under `docs/imagens-fluxo/`.
 
 ---
 
