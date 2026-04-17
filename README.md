@@ -23,7 +23,7 @@
 | :---: | :---: |
 | ![Power BI — strategic](docs/readme/power-bi-strategic-global-vision.png) | ![Power BI — operational](docs/readme/power-bi-operational-workforce-by-sector.png) |
 
-Mais texto, bullets para entrevista e SQL: **[docs/POWER_BI_PEOPLE_ANALYTICS.md](docs/POWER_BI_PEOPLE_ANALYTICS.md)**.
+Mais texto e SQL: **[docs/POWER_BI_PEOPLE_ANALYTICS.md](docs/POWER_BI_PEOPLE_ANALYTICS.md)**.
 
 ---
 
@@ -32,10 +32,3 @@ Mais texto, bullets para entrevista e SQL: **[docs/POWER_BI_PEOPLE_ANALYTICS.md]
 <p align="left"><img src="assets/factory-chocolate-hero.png" alt="Choco Kingdom" width="400" /></p>
 
 Guia não técnico com prints e vídeo do calendário: **[docs/FLUXO_APP_SIMPLES.md](docs/FLUXO_APP_SIMPLES.md)**.
-
----
-
-## Correr localmente | Run locally
-
-Na pasta `choco-app`: `npm install` → `npm run start`.  
-API: `backend/` — variáveis em `backend/.env.example` e notas em [`docs/DOCUMENTACAO_PROJETO_CACAU_APP.md`](docs/DOCUMENTACAO_PROJETO_CACAU_APP.md) (secção **9) Status atual de entrega**).
