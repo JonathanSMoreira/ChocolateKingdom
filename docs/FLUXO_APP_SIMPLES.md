@@ -107,11 +107,19 @@ Na lista **Equipe e presença**, o ícone de **calendário** na linha de cada pe
 - **Gestos (swipe) no calendário:** em contas de **gestão** há atalhos (por exemplo folga / justificativa); no **próprio** calendário o colaborador trata sobretudo de tudo por **toque longo** → detalhe, sem os mesmos gestos rápidos de quem coordena.
 - **Folga no próprio dia:** só quem tem **cargo compatível** (ex.: gerente / coordenador ou regra equivalente no app) marca folga diretamente; outros perfis seguem fluxo com justificativa.
 
-**Vídeo do fluxo** no telemóvel (app Choco Kingdom). O leitor abaixo é **vídeo** (usa **play** ▶); a miniatura inicial é só um **frame** do mesmo ecrã (`08-calendario-presenca-thumb.png`), não substitui o vídeo.
+**Vídeo do fluxo** no telemóvel (app Choco Kingdom): gravação de ecrã. Clica em **play** no leitor em baixo. A imagem parada é só o **poster** (frame `08-calendario-presenca-thumb.png`).
 
-<video poster="imagens-fluxo/08-calendario-presenca-thumb.png" src="imagens-fluxo/calendario-presenca-screen-recording.mp4" controls playsinline preload="metadata" width="380" style="max-width:100%;height:auto;display:block;margin:0 auto;"></video>
+<video
+  controls
+  playsinline
+  preload="metadata"
+  width="380"
+  style="max-width:100%;height:auto;display:block;margin:0 auto;"
+  poster="https://raw.githubusercontent.com/JonathanSMoreira/ChocolateKingdom/master/docs/imagens-fluxo/08-calendario-presenca-thumb.png"
+  src="https://raw.githubusercontent.com/JonathanSMoreira/ChocolateKingdom/master/docs/imagens-fluxo/calendario-presenca-screen-recording.mp4"
+></video>
 
-*Se o vídeo não carregar no browser, abre o ficheiro `calendario-presenca-screen-recording.mp4` na pasta `docs/imagens-fluxo/` (clone local ou vista Raw no GitHub).*
+**Alternativa (se o leitor não aparecer ou não reproduzir):** [abrir o MP4 directamente (Raw / transferir)](https://raw.githubusercontent.com/JonathanSMoreira/ChocolateKingdom/master/docs/imagens-fluxo/calendario-presenca-screen-recording.mp4) — o browser ou telemóvel abre o vídeo ou faz download.
 
 ---
 
