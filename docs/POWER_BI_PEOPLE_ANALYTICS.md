@@ -41,7 +41,7 @@ The sections below alternate **Portuguese** and **English** for the same topics.
 
 **English** — Tracks **sign-up growth over time**, comparing **Female** and **Male** trends (strategic page).
 
-[![Customer growth over time by gender](readme/power-bi-viz-crescimento-clientes-genero.png)](readme/power-bi-viz-crescimento-clientes-genero.png)
+[![Customer growth over time by gender](readme/power-bi-viz-crescimento-clientes-genero-v2.png)](readme/power-bi-viz-crescimento-clientes-genero-v2.png)
 
 ---
 
