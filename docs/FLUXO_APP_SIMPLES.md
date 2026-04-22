@@ -121,13 +121,19 @@ In **Team & attendance**, the **calendar** icon on each row opens that person’
 
 **Vídeo do fluxo | Flow video**
 
-**Português** — Gravação de ecrã no telemóvel (app Choco Kingdom). Ficheiro: [calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4).
+**Português** — Gravação de ecrã no telemóvel (app Choco Kingdom). Ficheiro: [calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4?raw=1).
 
-**English** — On-phone **screen recording** (Choco Kingdom app). File: [calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4).
+**English** — On-phone **screen recording** (Choco Kingdom app). File: [calendario-presenca-screen-recording.mp4](imagens-fluxo/calendario-presenca-screen-recording.mp4?raw=1).
 
-<p align="center"><img src="imagens-fluxo/08-calendario-presenca-thumb.png" alt="Attendance calendar — reference frame" width="320" /></p>
+<p align="center">
+  <a href="imagens-fluxo/calendario-presenca-screen-recording.mp4?raw=1" title="Abrir ou descarregar vídeo | Open or download video">
+    <img src="imagens-fluxo/08-calendario-presenca-thumb.png" alt="Attendance calendar — click to open/download video" width="420" />
+  </a>
+</p>
 
 *Frame de referência do mesmo ecrã | Reference still from the same screen.*
+  
+**Download direto | Direct download:** [Baixar vídeo / Download video](imagens-fluxo/calendario-presenca-screen-recording.mp4?raw=1)
 
 **Se não abrir no browser | If the file won’t open in the browser:** com sessão no GitHub, abre o link do MP4 e usa **Download** ou **View raw**. Com **clone local**, reproduz `docs/imagens-fluxo/calendario-presenca-screen-recording.mp4` no explorador. / With a **local clone**, play the file under `docs/imagens-fluxo/`.
 
