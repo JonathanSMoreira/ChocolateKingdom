@@ -1,11 +1,16 @@
 # Choco Kingdom
 
-**PT:** App móvel (parque temático) + API + SQL Server + **People Analytics (Power BI)** — portfólio; dados de exemplo.  
-**EN:** Mobile theme-park app + API + SQL Server + **Power BI People Analytics** — portfolio; sample data.
+**PT — O que o app de parque faz no telemóvel**  
+A experiência serve para o visitante consultar o parque em tempo útil: informação geral sobre o parque, tempos de fila, localização das atrações no mapa e, a médio prazo, conteúdo sobre hotéis e outras atrações (novidades e detalhes). Tudo isso reforça a descoberta, o percurso no dia e a antecipação do que fazer a seguir. Para além do visitante, o projeto inclui uma **área de colaborador** (ponto e equipa) no mesmo ecossistema, orientada a um **melhor controlo e gestão** das diversas **áreas e setores** do parque.
 
-**PT — O que encontrar aqui:** um **app** de experiência de parque (mapa, perfil, área de funcionário com ponto e equipa) ligado a uma **API** e a dados em **SQL Server**. Em paralelo, um **dashboard de People Analytics** no **Power BI**, alimentado por essa mesma linha de dados: presença, ausências, atestados, quadro por setor e visão estratégica de pessoas (perfil, crescimento, geografia).
+**EN — What the park app does on mobile**  
+The experience helps guests use the park in the moment: general park information, queue times, attraction locations on the map, and, over time, content on hotels and other attractions (news and details). That supports discovery, flow through the day, and planning what to do next. Beyond visitors, the project includes an **employee** area (time tracking and team) in the same ecosystem, aimed at **better control and management** of the park’s **areas and sectors**.
 
-**EN — What’s here:** a **theme-park style mobile app** plus a **Node API** and **SQL Server** as the system of record, and a **Power BI People Analytics** layer on top of that structured HR/attendance data (operational and strategic views).
+**Analytics (Power BI — People Analytics)**  
+A análise começa pelo **perfil dos clientes**: por exemplo **localização geográfica**, evolução de cadastros e leitura demográfica — útil para perceber de onde vêm as visitas, como cresce a base e como se distribui o público. Depois, o foco passa para **funcionários e operação**: presença e ausências por setor, distinção entre **falta e atestado**, quadro e detalhe por colaborador, com uma visão de conjunto (indicadores e tendências) que apoia tanto o **dia a dia** como decisões mais **estratégicas** sobre pessoas e equipas. Os pormenores técnicos e as definições de métricas estão na documentação do repositório.
+
+**EN — Analytics (Power BI — People Analytics)**  
+Analysis starts with **customer profile**: for example **geographic location**, sign-up growth over time, and demographic readouts — useful to see where visits come from, how the base grows, and how the audience spreads. The focus then shifts to **staff and operations**: attendance and absences by sector, **unjustified absence vs medical certificate**, headcount and person-level detail, plus an overview (KPIs and trends) that supports both **day-to-day** work and more **strategic** decisions on people and teams. Technical details and metric definitions are in the repo documentation.
 
 > **Aviso:** os dados são **fictícios** e fazem parte de um **projeto pessoal**; não representam uma operação real.  
 > **Notice:** the dataset is **fictional** and for a **personal portfolio**; it does not represent a real company.
